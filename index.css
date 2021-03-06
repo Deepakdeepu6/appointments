@@ -1,0 +1,170 @@
+  /* Header part(Common to all) */
+
+  .top-div{
+    background: #2f2879;
+    padding: 10px;
+}
+  .menu_para{
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    line-height:100%;
+    text-align: center;
+}
+  .top-add-div{
+    padding: 10px;
+    position: relative;
+  }
+ /* .dropdown-menu{
+    width:50%;
+   text-align:left;
+    margin-left: 20%;
+}*/
+  .navbar-nav{
+    margin-right: 5%;
+}
+
+  .text{
+    color: #2f2879; 
+}
+.sticky-top{
+    margin-top: 0;
+}
+.justify-content-center{
+  margin-left: 4%;
+}
+
+/* Side nav */
+
+#mySidenav p {
+  position: fixed;
+  left: -110px;
+  transition: 0.3s;
+  padding: 10px 0;
+  width: 135px;
+  text-decoration: none;
+  text-align: right;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  margin-top:20%;
+ 
+
+}
+a:link{
+  text-decoration:none;
+  
+}
+#mySidenav p:hover {
+  left: 0;
+}
+
+#profile {
+  top: 140px;
+  background-color: #4CAF50;
+  
+}
+#vision {
+  top: 191px ;
+ background-color: #2196F3;
+}
+
+#faculty {
+  top: 242px;
+  background-color: #f44336;
+}
+
+#results {
+  top: 293px;
+  background-color: #555;
+}
+
+#blank {
+  top: 344px;
+  background-color: rgb(120, 27, 164);
+}
+
+.card{
+  margin-top: -8%;
+  margin-bottom: 6%;
+  /*z-index: -1;*/
+}
+
+.fa-angle-double-right{
+    font-weight: bolder;
+    color: #000000;
+    font-size: 110%;
+}
+
+#relative{
+    /* border: 2px solid black; */
+    margin-left: 7%;
+    margin-right: 2%;
+    margin-top: 4%;
+}
+
+#absolute{
+    padding-right: 10%;
+    padding-left: 5%;
+    padding-top: 4%;
+    text-align: justify;
+}
+.hodimg {
+  width: 100%;
+}
+.footer{
+  position: relative;
+  background-color: #ffc107;
+  height:10vh;
+  width: 100%;
+  z-index: -1;
+  top:300px; 
+  bottom: 0%; 
+}
+.copyrig{
+  text-align: center;
+  position: relative;
+  bottom: 0%;
+}
+.copyrig p{
+  font-size: 20px;
+  font-weight: 450;
+  padding-top: 1em;
+}
+.icon-flipped {
+  transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+}
+#pinboard1
+{
+  width:100%;
+  max-width:700px;
+  margin:auto;
+}
+  #col1
+{
+  font-size:30px;
+  font-weight:bold;
+
+}
+#col2
+{
+  font-size:16px;
+  font-weight:bold;
+
+}
+#text
+{
+  font-size:16px;
+  letter-spacing:2px;
+  font-weight:500;
+
+}
+#pinboard1 .hr1
+{
+  border-bottom:5px solid green;
+}
